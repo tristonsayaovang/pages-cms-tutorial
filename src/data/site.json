@@ -1,0 +1,6 @@
+{
+  "title": "My Little Blog",
+  "tagline": "A tiny Astro site, edited with Pages CMS",
+  "author": "Your Name",
+  "footer": "Built with Astro. Content managed by Pages CMS."
+}
