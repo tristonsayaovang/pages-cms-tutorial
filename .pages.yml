@@ -1,0 +1,25 @@
+media:
+  input: public/images
+  output: /images
+
+content: 
+  - name: site
+    label: Site settings
+    type: file
+    path: src/data/site.json
+    format: json
+    fields: 
+      - name: title
+        label: Site title
+        type: string
+        required: true
+      - name: tagline
+        label: Tagline
+        type: string
+      - name: author
+        label: Author
+        type: string
+      - name: footer
+        label: Footer text
+        type: text
+
